@@ -6,5 +6,12 @@
 </head>
 <body>
 <iframe src="lockscreen.html" style="overflow: hidden;" width="320" height="480" frameborder="0"></iframe>
+<script>
+var manifest_url = "yurenju.github.com/lockscreen-demo/manifest.webapp";
+</script>
+
+<button onclick="navigator.mozApps.install(manifest_url); return false;">
+  Install Lockscreen demo
+</button>
 </body>
 </html>

@@ -1,0 +1,10 @@
+{
+  "name": "Lockscreen demo",
+  "description": "Lockscreen demo",
+  "launch_path": "http://yurenju.github.com/lockscreen-demo/lockscreen.html",
+  "developer": {
+    "name": "Yuren Ju",
+    "url": "https://github.com/yurenju"
+  },
+  "default_locale": "en"
+}
