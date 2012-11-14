@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style/lockscreen.css">
+  <script defer src="js/lockscreen.js"></script>
+</head>
+<body>
+      <div id="lockscreen" data-panel="main" data-z-index-level="lockscreen">
+        <div id="lockscreen-container">
+          <div id="lockscreen-panel-main" class="lockscreen-panel">
+            <svg id="lockscreen-curve" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs id="defs">
+
+            </defs>
+              <path fill="none" id="lockscreen-curvepath" stroke-width="2" stroke="white"
+                d="M0,100 C100,150 220,150 320,100">
+              <animate id="animate-start" attributeType="XML" attributeName="d"
+                  dur="0.2s"
+                    to="M0,100 C100,150 220,150 320,100" />
+              </path>
+            </svg>
+            <div id="lockscreen-area"></div>
+            <div id="lockscreen-area-camera" class="lockscreen-icon lockscreen-icon-left"></div>
+            <div id="lockscreen-area-unlock" class="lockscreen-icon lockscreen-icon-right"></div>
+            <div id="lockscreen-area-handle"><span></span><span></span></div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
